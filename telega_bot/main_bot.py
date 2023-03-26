@@ -193,7 +193,7 @@ async def keyboard_callback(callback: types.CallbackQuery, callback_data: dict) 
         tasks = tag.tasks.where(Task.complexity == cmx).limit(10)
         text = ''
         for i in tasks:
-            text += f'{i.id, i.name, i.complexity.name, i.solution}\n'
+            text += f'{i.task_id, i.name, i.complexity.name, i.solution}\n'
         if not text:
             text = 'Нет задач с выбранными параметрами'
         msg = callback.message

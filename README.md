@@ -5,11 +5,10 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/Bogdan-Malina/foodgram-project-react.git
+git clone https://github.com/Bogdan-Malina/codeforces_parser.git
 ```
-
 ```
-cd foodgram-project-react/infra
+cd codeforces_parser/infra
 ```
 В папке infra создайте и заполните .env файл:
 ```

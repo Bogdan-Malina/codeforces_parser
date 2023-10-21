@@ -25,5 +25,12 @@ DB_PORT=5432
 docker-compose up --build
 ```
 
+### Технологии:
+- Python
+- aiogram
+- peewee
+- Beautiful Soup
+- APScheduler
+
 ### Автор
 Данил Воронин https://github.com/Bogdan-Malina
